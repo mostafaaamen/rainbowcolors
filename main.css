@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top:100px;
+}
+div{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    color:black;
+    font-family: 22px;
+    font-weight: 700;
+}
+.assign-1-shape-1{
+    background-color:red; 
+    border-radius: 5px 5px 0 0;
+}
+.assign-1-shape-2{
+    background-color: orange;
+}
+.assign-1-shape-3{
+    background-color: yellow;
+}
+.assign-1-shape-4{
+    background-color: green
+
+}.assign-1-shape-5{
+    background-color: blue;
+}.assign-1-shape-6{
+    background-color: indigo;
+}.assign-1-shape-7{
+    background-color: violet;
+        border-radius: 0 0  5px 5px;
+
+}
+.one{
+    position: relative;
+    background-color:red;
+    height: 406px;
+    width: 8px;
+    display: block;
+    top: -406px;
+    left: 50%;
+      transform: rotate(45deg);
+
+}
+.two{
+    position: relative;
+    background-color: red;
+    height: 406px;
+    width: 8px;
+    display: block;
+    top: -811px;
+    left: 50%;
+      transform: rotate(-45deg);
+
+}
+.anm{
+    animation: mymove 3s infinite
+
+}
+
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
+}
